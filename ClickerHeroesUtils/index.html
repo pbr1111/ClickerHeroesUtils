@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Clicker Heroes Utils</title>
+
+    <!-- Styles -->
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/main.css" rel="stylesheet" />
+
+    <!-- Dependencies -->
+    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/md5.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/angular.min.js"></script>
+
+    <!-- Models -->
+    <script src="App/Model/Hero/Hero.js"></script>
+    <script src="App/Model/Hero/HeroCollection.js"></script>
+    <script src="App/Model/SaveGame.js"></script>
+
+    <!-- Utils -->
+    <script src="App/Utils/Editor/EditorController.js"></script>
+    <script src="App/Utils/UtilsController.js"></script>
+    <script src="App/Utils/UtilsModule.js"></script>
+
+    <!-- Directives -->
+    <script src="App/Web/Model/Tab.js"></script>
+    <script src="App/Web/Directives/JsonTextArea/JsonTextAreaDirective.js"></script>
+    <script src="App/Web/Directives/NavBar/NavBarDirective.js"></script>
+    <script src="App/Web/Directives/TitleNavBar/TitleNavBarDirective.js"></script>
+    <script src="App/Web/Directives/DirectivesModule.js"></script>
+
+    <!-- Parent module -->
+    <script src="App/AppModule.js"></script>
+</head>
+<body ng-app="AppModule">
+    <ng-include src="'App/Utils/Utils.html'"></ng-include>
+
+    <footer class="footer">
+        <p class="text-center">&copy; 2016 - <a href="https://github.com/pbr1111">@pbr1111</a></p>
+    </footer>
+</body>
+</html>

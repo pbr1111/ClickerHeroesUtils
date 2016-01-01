@@ -1,0 +1,8 @@
+﻿<div ng-controller="EditorController">
+
+    <title-nav-bar title="Save Editor" tabs="tabs" selected-tab="selectedTab"></title-nav-bar>
+
+    <div class="container">
+        <ng-include src="selectedTab.TemplateUrl"></ng-include>
+    </div>
+</div>

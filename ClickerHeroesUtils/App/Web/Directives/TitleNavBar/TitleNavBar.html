@@ -1,0 +1,15 @@
+﻿<div class="custom-navbar">
+    <div class="item">
+        <button type="button" class="btn btn-default" ng-show="showPrevious" ng-click="onPrevious()">
+            Prev <span class="glyphicon glyphicon-menu-left"></span>
+        </button>
+    </div>
+    <div class="item">
+        {{title}} <span ng-show="selectedTab.Title">- {{selectedTab.Title}}</span>
+    </div>
+    <div class="item">
+        <button type="button" class="btn btn-primary" ng-click="onNext()" ng-show="showNext">
+            Next <span class="glyphicon glyphicon-menu-right"></span>
+        </button>
+    </div>
+</div>
